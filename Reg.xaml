@@ -1,0 +1,22 @@
+﻿<Window x:Class="MPK.Reg"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MPK"
+        mc:Ignorable="d"
+        Title="Выбор услуги" Height="450" Width="800" MaxHeight="450" MaxWidth="800" MinHeight="450" MinWidth="800">
+    <Grid Background="Black">
+        <Border BorderBrush="Black" BorderThickness="1" Background="White" Margin="0,0,0,289"/>
+        <Label Content="Магазин ремонта компьютеров" HorizontalAlignment="Left" Margin="142,28,0,0" VerticalAlignment="Top" Foreground="Black" FontSize="22" FontWeight="Bold" FontFamily="Comic Sans MS" Background="{x:Null}"/>
+        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Source="/img/200.jpg" Margin="10,10,0,0"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="726,193,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Регистрация" HorizontalAlignment="Left" Margin="694,259,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Margin="80,178,0,0" TextWrapping="Wrap" Text="Login" VerticalAlignment="Top" Background="White" Width="107"/>
+        <TextBox x:Name="TextBox2" HorizontalAlignment="Left" Margin="80,204,0,0" TextWrapping="Wrap" Text="Pass" VerticalAlignment="Top" Background="White" Width="119"/>
+        <TextBox x:Name="TextBox3" HorizontalAlignment="Left" Margin="80,237,0,0" TextWrapping="Wrap" Text="Fam" VerticalAlignment="Top" Background="White" Width="129"/>
+        <TextBox x:Name="TextBox4" HorizontalAlignment="Left" Margin="80,279,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Background="White" Width="149"/>
+        <TextBox x:Name="TextBox5" HorizontalAlignment="Left" Margin="80,315,0,0" TextWrapping="Wrap" Text="Oth" VerticalAlignment="Top" Background="White" Width="140"/>
+        <TextBox x:Name="TextBox6" HorizontalAlignment="Left" Margin="80,355,0,0" TextWrapping="Wrap" Text="Add" VerticalAlignment="Top" Background="White" Width="140"/>
+    </Grid>
+</Window>
